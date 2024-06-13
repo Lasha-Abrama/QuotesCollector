@@ -20,7 +20,6 @@ class Quotes:
             return response.text
         else:
             print(f"Failed Operation, Status code: {response.status_code} ")
-            return None
 
 # BeautifulSoup-ის მოდულის საშუალებით კონკრეტული ინფორმაციის წამოღება
     def parse_page(self, html):
